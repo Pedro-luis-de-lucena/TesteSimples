@@ -1,6 +1,7 @@
 /**
  * @param {*} probes 
  */
+// ### esse passa em todos os tests
 function macsByRadio(probes){
   if (!probes)
         return []
@@ -35,7 +36,7 @@ function macsByRadio(probes){
     return [radio1, radio2, radio3, radio4]
 }
 
- ### esse abaixo e mais bonito de ser feito mas nao consegui passar no test( mas faz exatamente o que se pede).
+// ### esse abaixo e mais bonito de ser feito mas nao consegui passar no test( mas faz exatamente o que se pede).
 // const groupBy = (array, key) => {
 //     // Return the end result
 //     return array.reduce((result, currentValue) => {
